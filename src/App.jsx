@@ -25,7 +25,7 @@ function App() {
         <Route path="/logout" element={<Logout />} />
         <Route path="/acteur/:id" element={<Acteur />} />
         <Route path="/series/:slug/" element={<SeriesShow />} />
-        <Route path="/film/:id/" element={<FilmShow />} />
+        <Route path="/films/:id/" element={<FilmShow />} />
         <Route path="/series/:slug/episode/:id" element={<EpisodeShow />} />
         {localStorage.getItem("token") ? (
           <Route path="/profile/series" element={<SeriesHistory />} />

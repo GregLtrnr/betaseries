@@ -36,29 +36,29 @@ export default function Profile() {
                 {user && user.login}
               </h1>
               <h1 className="text-2xl mb-4 mt-2">
-                Genre favori:{" "}
+                Genre favori:
                 {user && user.stats.favorite_genre
                   ? user.stats.favorite_genre
-                  : "aucun"}{" "}
+                  : "aucun"}
               </h1>
               <h1 className="text-2xl mb-4 mt-2">
-                Nombre de série suivi:{" "}
-                {user && user.stats.shows ? user.stats.shows : "0"}{" "}
+                Nombre de série suivi:
+                {user && user.stats.shows ? user.stats.shows : "0"}
               </h1>
               <h1 className="text-2xl mb-4 mt-2">
-                Progression des séries suivis:{" "}
-                {user && user.stats.progress ? user.stats.progress : "0"} %{" "}
+                Progression des séries suivis:
+                {user && user.stats.progress ? user.stats.progress : "0"} %
               </h1>
               <h1 className="text-2xl mb-4 mt-2">
-                Nombre de séries terminés:{" "}
+                Nombre de séries terminés:
                 {user && user.stats.shows_finished
                   ? user.stats.shows_finished
-                  : "0"}{" "}
-                / {user && user.stats.shows}{" "}
+                  : "0"}
+                / {user && user.stats.shows}
               </h1>
               <h1 className="text-2xl mb-4 mt-2">
-                Nombre de badges obtenus:{" "}
-                {user && user.stats.badges ? user.stats.badges : "0"}{" "}
+                Nombre de badges obtenus:
+                {user && user.stats.badges ? user.stats.badges : "0"}
               </h1>
             </div>
           </div>
