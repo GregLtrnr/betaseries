@@ -1,4 +1,6 @@
-# Description
+# Betaseries
+
+## Description
 
 React-Based BetaSeries API Integration for Popular Films and Series
 
